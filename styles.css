@@ -19,7 +19,7 @@ html{
     color: white;
     background-color: #c71585;
     align-content: center;
-    margin-top: 3rem;
+    margin-top: 0rem;
 }
 
 
@@ -48,8 +48,8 @@ html{
   }
   
   #outside-pic {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 500px;
   }
   
   #outside-help {
@@ -94,7 +94,7 @@ html{
     background: white;
     color: black;
     font-family: 'Gwendolyn', cursive;
-    font-size: medium;
+    font-size: large;
     padding: .2rem;
   }
 
@@ -146,13 +146,30 @@ a:active{
     border: black;
 }
 
-p.copyright{
-    font-size: .8rem;
-    margin: 0rem;
-    /* margin-top: .8rem; */
-    max-width: 42rem;
-    margin-left: 1rem;
-    line-height: 1.1rem;
-    color: black;
-    /* margin-left: auto;
-    margin-right: auto; */
+header,footer{
+    color: #c71585;
+    font-family:'Architects Daughter', cursive;;
+    font-size: large;
+}
+
+header{
+    position:relative;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    top: 0px;
+    background-color: wheat;
+}
+    
+    
+footer{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    font-size: small;
+    line-height: 1.5em;
+    background-color: wheat;
+    
+}
